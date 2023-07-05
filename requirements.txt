@@ -30,3 +30,6 @@ httpie==3.2.1
 
 # Flask
 Flask-Talisman
+
+# Flask
+Flask-Cors
