@@ -88,7 +88,7 @@ class TestAccountService(TestCase):
             self.assertEqual(
                 response.status_code,
                 status.HTTP_201_CREATED,
-                
+
                 "Could not create test Account",
             )
             new_account = response.get_json()
